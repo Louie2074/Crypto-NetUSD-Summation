@@ -5,7 +5,7 @@ This Tool parses csv and xlsx files for binance, coinbase (Regular) and gemini s
 
 To run the program, enter:
 
-python3 assetSum.py <DATAFILE> <ASSETLIST> <INT>
+python3 assetSum.py [DATAFILE] [ASSETLIST] [INT]
 
 The program takes 3 arguments, the first argument must be a valid csv or xlsx report from either gemini, coinbase or binance. The second argument must either be a 
 text or json file that contains an array of Ticker Symbols (Ex. ["BTCUSD","ETHUSD"]). The third and final argument is an integer that specifies which 
